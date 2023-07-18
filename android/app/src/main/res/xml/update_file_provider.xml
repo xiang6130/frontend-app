@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--升级-->
+    <!--<external-cache-path name="update_external_cache" path="." />-->
+    <!--<cache-path name="update_cache" path="." />-->
+    <!--代表设备的根目录new File("/");-->
+    <root-path name="root" path="" />
+    <!--context.getFilesDir()-->
+    <files-path name="files" path="Android/data/com.xtzh/files/Download" />
+    <!--context.getCacheDir()-->
+    <cache-path name="cache" path="." />
+    <!--Environment.getExternalStorageDirectory()-->
+    <external-path name="external" path="Android/data/com.xtzh/files/Download" />
+    <!--context.getExternalFilesDirs()-->
+    <external-files-path name="update_cache" path="Download" />
+    <!--getExternalCacheDirs()-->
+    <external-cache-path name="update_external_cache" path="." />
+</paths>
